@@ -1,0 +1,23 @@
+{
+  "name": "dashboard-directive-errorsrc",
+  "description": "dashboard-directive-errorsrc",
+  "version": "1.0.0",
+  "homepage": "https://github.com/gfke/dashboard-directive-errorsrc",
+  "bugs": "https://github.com/gfke/dashboard-directive-errorsrc",
+  "main": "source/index.es6.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gfke/dashboard-directive-errorsrc.git"
+  },
+  "author": {
+    "name": "Christian Steinmann",
+    "email": "christian.steinmann@gfk.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "yoso-gulp": "^2.5.0"
+  }
+}
