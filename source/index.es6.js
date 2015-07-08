@@ -7,8 +7,8 @@ export default (ngModule) => {
             link: (scope, element, attrs) => {
                 let defaultSrc = attrs.src;
                 element.bind('error', () => {
-                    if (attrs.errSrc) {
-                        element.attr('src', attrs.errorSrc);
+                    if (attrs.gfkeErrorSrc) {
+                        element.attr('src', attrs.gfkeErrorSrc);
                     } else if (attrs.src) {
                         element.attr('src', defaultSrc);
                     }

@@ -1,7 +1,7 @@
 {
   "name": "dashboard-directive-errorsrc",
   "description": "dashboard-directive-errorsrc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/gfke/dashboard-directive-errorsrc",
   "bugs": "https://github.com/gfke/dashboard-directive-errorsrc",
   "main": "source/index.es6.js",
