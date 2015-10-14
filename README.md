@@ -3,5 +3,5 @@ Loads an alternative src of an image element when the original src failed to loa
 
 ## Usage
 ```html
-<img src="myimage.jpg" error-src="fallback.jpg">
+<img src="myimage.jpg" gfke-error-src="fallback.jpg">
 ```
