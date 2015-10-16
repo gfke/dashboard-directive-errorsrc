@@ -1,4 +1,4 @@
-# HEAD
+# 1.0.4
 
 - Properly remove $destroy handler (PM-329)
 
