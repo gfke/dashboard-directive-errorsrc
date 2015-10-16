@@ -16,9 +16,10 @@ export default (ngModule) => {
 
                 element.bind('error', errorHandler);
 
-                scope.$on('$destroy', () => {
+                let $destroyHandler = scope.$on('$destroy', () => {
                     // Properly remove the error handler
                     element.unbind('error', errorHandler);
+                    $destroyHandler();
 
                     // Prevent memory leaks
                     defaultSrc = undefined;

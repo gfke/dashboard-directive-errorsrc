@@ -1,23 +1,30 @@
 {
-  "name": "dashboard-directive-errorsrc",
-  "description": "dashboard-directive-errorsrc",
-  "version": "1.0.3",
-  "homepage": "https://github.com/gfke/dashboard-directive-errorsrc",
-  "bugs": "https://github.com/gfke/dashboard-directive-errorsrc",
-  "main": "source/index.es6.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gfke/dashboard-directive-errorsrc.git"
-  },
-  "author": {
-    "name": "Christian Steinmann",
-    "email": "christian.steinmann@gfk.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "devDependencies": {
-    "gulp": "^3.8.11",
-    "yoso-gulp": "^4.1.2"
-  }
+    "name": "dashboard-directive-errorsrc",
+    "description": "dashboard-directive-errorsrc",
+    "version": "1.0.4",
+    "homepage": "https://github.com/gfke/dashboard-directive-errorsrc",
+    "bugs": "https://github.com/gfke/dashboard-directive-errorsrc",
+    "main": "source/index.es6.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gfke/dashboard-directive-errorsrc.git"
+    },
+    "author": {
+        "name": "Christian Steinmann",
+        "email": "christian.steinmann@gfk.com"
+    },
+    "contributors": [
+        {
+            "name": "Michael Raith",
+            "email": "Bruce17@users.noreply.github.com",
+            "url": "https://github.com/Bruce17"
+        }
+    ],
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "devDependencies": {
+        "gulp": "^3.8.11",
+        "yoso-gulp": "^4.1.2"
+    }
 }
