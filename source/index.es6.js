@@ -7,10 +7,14 @@ export default (ngModule) => {
             link: (scope, element, attrs) => {
                 let defaultSrc = attrs.src,
                     errorHandler = () => {
+                        let newSrc = null;
                         if (attrs.gfkeErrorSrc) {
-                            element.attr('src', attrs.gfkeErrorSrc);
+                            newSrc = attrs.gfkeErrorSrc;
                         } else if (attrs.src) {
-                            element.attr('src', defaultSrc);
+                            newSrc = defaultSrc;
+                        }
+                        if (newSrc !== null && newSrc !== element.attr('src')) {
+                            element.attr('src', newSrc);
                         }
                     };
 
